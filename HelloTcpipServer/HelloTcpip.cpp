@@ -63,7 +63,10 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
         puts("A new client has connected."); fflush(stdout);
         // 4.2 Receive a string from the client.
-		while ((nReceive = ::recv(hClient, szBuffer, sizeof(szBuffer), 0)) > 0) // if recv returns 0, the client has disconnected
+		while ((nReceive = ::recv(hClient
+			, szBuffer
+			, sizeof(szBuffer) // cut off byte if it is longer than 128 bytes
+			, 0)) > 0) // if recv returns 0, the client has disconnected
 		{
             // 4.3 Echo the received string back to the client.
 			::send(hClient
@@ -88,3 +91,4 @@ int _tmain(int argc, _TCHAR* argv[])
 	::WSACleanup();
 	return 0;
 }
+

@@ -48,6 +48,13 @@ int _tmain(int argc, _TCHAR* argv[])
 		::send(hSocket, szBuffer
 			, strlen(szBuffer) + 1 // why +1 ? -> include `null` character
 			, 0);
+
+		// Test : send and recv mappped one by one? -> Nope.
+		//int nLen = strlen(szBuffer);
+		//for (int i = 0; i < nLen; i++) // send one character at a time
+		//	::send(hSocket, szBuffer + i, 1, 0);
+
+
 		//서버로부터 방금 보낸 문자열에 대한 에코 메시지를 수신한다.
 		memset(szBuffer, 0, sizeof(szBuffer));
 		::recv(hSocket, szBuffer, sizeof(szBuffer), 0);
