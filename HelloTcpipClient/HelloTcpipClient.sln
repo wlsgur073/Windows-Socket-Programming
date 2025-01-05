@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloTcpipClient", "HelloTcpipClient.vcxproj", "{17CC0C32-CC34-4E67-9976-9B359FAADCCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17CC0C32-CC34-4E67-9976-9B359FAADCCE}.Debug|x86.ActiveCfg = Debug|Win32
+		{17CC0C32-CC34-4E67-9976-9B359FAADCCE}.Debug|x86.Build.0 = Debug|Win32
+		{17CC0C32-CC34-4E67-9976-9B359FAADCCE}.Release|x86.ActiveCfg = Release|Win32
+		{17CC0C32-CC34-4E67-9976-9B359FAADCCE}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF664390-AF4E-43CE-9894-5729F9B12580}
+	EndGlobalSection
+EndGlobal
