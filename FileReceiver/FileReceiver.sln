@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileReceiver", "FileReceiver.vcxproj", "{516DD724-05A3-412D-BF28-7F5C2CD9436F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{516DD724-05A3-412D-BF28-7F5C2CD9436F}.Debug|x86.ActiveCfg = Debug|Win32
+		{516DD724-05A3-412D-BF28-7F5C2CD9436F}.Debug|x86.Build.0 = Debug|Win32
+		{516DD724-05A3-412D-BF28-7F5C2CD9436F}.Release|x86.ActiveCfg = Release|Win32
+		{516DD724-05A3-412D-BF28-7F5C2CD9436F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C66AD0-BD5B-4600-89D1-5830924B7A10}
+	EndGlobalSection
+EndGlobal
