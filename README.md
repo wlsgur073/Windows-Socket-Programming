@@ -1,4 +1,6 @@
-## Why you need to know socket programming
+# To be better Backend Developer
+
+### Why you need to know socket programming
 The reason backend developers need to know socket programming is to understand the basic principles of network communication and use them to develop a variety of server and network applications. Socket programming is a key skill for network-based backend systems, and knowing it allows you to design more efficient and reliable systems. **HTTP will eventually return to being TCP/IP-based.**
 
 ### What i learned
